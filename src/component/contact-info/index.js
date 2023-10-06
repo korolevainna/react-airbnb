@@ -12,7 +12,7 @@ export default function ContactInfo({
   return (
     <div className="contact">
       <div className="contact__block">
-        <img src={image} alt={name} height={80} width={80} className="photo" />
+        <img src={image} alt={name} height={80} width={80} className="image" />
         <div className="contact__owner">
           <Heading>Господар - {name}</Heading>
           <div className="contact__sub-block">
