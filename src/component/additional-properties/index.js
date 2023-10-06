@@ -8,7 +8,7 @@ export default function AdditionalProperties({ ...rest }) {
   return (
     <Box className="AdditionalProperties" shadow>
       <div className="details__header">
-        <Heading border>Додаткові властивлсті:</Heading>
+        <Heading border>Додаткові властивoсті:</Heading>
       </div>
 
       <List {...rest} />

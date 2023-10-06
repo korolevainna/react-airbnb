@@ -22,7 +22,7 @@ export default function Amenities({ ...rest }) {
   return (
     <Box className="amenities" shadow>
       <div className="amenities__header">
-        <Heading border>Зручності</Heading>
+        <Heading border>ЗЗручності</Heading>
       </div>
       <List {...rest} />
     </Box>
