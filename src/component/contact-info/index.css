@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact__block {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 20px;
+  }
+  .contact__owner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .photo {
+    border-radius: 40px;
+  }
+  
+  .contact__name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .contact__sub-block {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .contact__sub-value {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .contact__sub-value:not(:last-child)::after {
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+  }
+  
+  .contact__info {
+    font-size: 16px;
+  }

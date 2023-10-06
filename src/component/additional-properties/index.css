@@ -1,0 +1,19 @@
+.AdditionalProperties {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.AdditionalProperties__header {
+  display: flex;
+  gap: 12px;
+}
+
+.AdditionalProperties__list {
+  display: grid;
+  gap: 12px;
+}
+
+.AdditionalProperties__text {
+  font-size: 16px;
+}
